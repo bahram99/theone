@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="fa" dir="ltr">
+   <!-- Basic -->
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <!-- Site Metas -->
+      <title>test</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Site Icons -->
+      <link rel="shortcut icon" href="#" type="image/x-icon" />
+      <link rel="apple-touch-icon" href="#" />
+      <!-- Bootstrap CSS -->
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-CKHFSO+alj8INnPTr6aTHcZfWxiUMck+E/gmzluv3nw0QiPeBS2hRjV8ImTZS5Yd" crossorigin="anonymous"> -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <!-- Pogo Slider CSS -->
+      <link rel="stylesheet" href="css/pogo-slider.min.css" />
+      <!-- Site CSS -->
+      <link rel="stylesheet" href="css/style.css" />
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="css/responsive.css" />
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="css/custom.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+      <!-- LOADER -->
+      <div id="preloader">
+         <div class="loader">
+            <img src="images/loader.gif" alt="#" />
+         </div>
+      </div>
+      <!-- END LOADER -->
+      <div class="wrapper">
+      <nav id="sidebar">
+         <div class="menu_section">
+            <ul >
+               <li><a href="#content">خانه</a></li>
+               <li><a href="#" onclick="onlogin()">ورود</a></li>
+               <li><a href="#" onclick="foo()">ثبت نام</a></li>
+               <li><a href="about.html">درباره ما</a></li>
+               <li><a href="services.html">سرویس ها</a></li>
+               <li><a href="contact.html">ارتباط با ما</a></li>
+            </ul>
+         </div>
+      </nav>
+      <div id="content">
+         <!-- Start header -->
+         <header class="top-header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-6">
+                     <div class="logo_main">
+                        <a href="#"  class="navbar-brand"><img style="width: 5rem; height: 5rem;" src="images/WhatsApp Image 2020-07-27 at 11.08.59 AM.jpeg" /></a>
+                        
+                        <button id="login" style="margin-left: 2rem;"  class="btn btn-outline-primary" onclick="onlogin()">ورود</button>
+                        <button id="login" class="btn btn-outline-primary" onclick="foo()">ثبت نام</button>
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn"><img class="iimg" src="images/menu_icon.png"></button>
+                     <button id="use"  class="btn btn-primary use"  onclick="foo()">!سه روز استفاده رایگان</button>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- End header -->
+         
+         <!-- Start Banner -->
+         <div class="ulockd-home-slider">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="pogoSlider" id="js-main-slider">
+                     <img class="pogoSlider-slide" src="./images/WhatsApp Image 2020-07-27 at 11.08.59 AM (2).jpeg">
+                       
+                   <div class="pogoSlider" id="js-main-slider">
+                     <img class="pogoSlider-slide" src="./images/WhatsApp Image 2020-07-27 at 11.08.59 AM (1).jpeg">     
+                     
+                  <div class="pogoSlider" id="js-main-slider">
+                     <img class="pogoSlider-slide" src="./images/slider_1.jpg">     
+                  </div>
+                  </div>
+            </div>
+         </div>
+         <!-- End Banner -->
+         <!-- section -->
+         <div class="section about_section layout_padding dash_bg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="full">
+                        <div class="heading_main text_align_center">
+                           <h2>سرویس های ما</h2>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xs-8 col-sm-8 col-md-8 col-lg-4">
+                     <div class="full feature_box">
+                         <div class="full icon">
+                            <img class="default-block" src="images/icon-cloud.png" alt="#" />
+                            <img class="default-none" src="images/icon-cloud.png" alt="#" />
+                         </div>
+                         <div class="full">
+                            <h4 style="direction: rtl; text-align: right;">مبتنی بر تکنولوژی Cloud</h4>
+                         </div>
+                         <div class="full">
+                         
+                         </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                     <div class="full feature_box">
+                         <div class="full icon">
+                            <img class="default-block" src="images/icon-discussion.png" alt="#" />
+                            <img class="default-none" src="images/icon-discussion.png" alt="#" />
+                         </div>
+                         <div class="full">
+                            <h4>بحث و گفتگو در مورد شاخص ها</h4>
+                         </div>
+                         <div class="full">
+                           
+                         </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                     <div class="full feature_box">
+                         <div class="full icon">
+                            <img class="default-block" src="images/icon-cloud.png" alt="#" />
+                            <img class="default-none" src="images/icon-cloud.png" alt="#" />
+                         </div>
+                         <div class="full">
+                            <h4  style="direction: rtl; text-align: right;"> ۶ ابزار کمکی مدیریت  پروژه      </h4>
+                         </div>
+                         <div class="full">
+                           <p style="direction: rtl; text-align: right;">
+                              نقشه ذهنی، تخته سفید، هشدار گذاری و....</p>
+                         </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                     <div class="full feature_box">
+                         <div class="full icon">
+                            <img class="default-block" src="images/icon-responsive.png" alt="#" />
+                            <img class="default-none" src="images/icon-responsive.png" alt="#" />
+                         </div>
+                         <div class="full">
+                            <h4>دسترسی از انواع دستگاه ها</h4>
+                         </div>
+                         <div class="full">
+                         </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                     <div class="full feature_box">
+                         <div class="full icon">
+                            <img class="default-block" src="images/icon-chart.png" alt="#" />
+                            <img class="default-none" src="images/icon-chart.png" alt="#" />
+                         </div>
+                         <div class="full">
+                            <h4>گزارش های نمایی متنوع</h4>
+                         </div>
+                         <div class="full">
+                           <p style="direction: rtl; text-align: right;">انواع نمودار خطی، میله ای، سطحی ، گیج و ...</p>
+                         </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                     <div class="full feature_box">
+                         <div class="full icon">
+                            <img class="default-block" src="images/icon-measure.png" alt="#" />
+                            <img class="default-none" src="images/icon-measure.png" alt="#" />
+                         </div>
+                         <div class="full">
+                            <h4 style="direction: rtl; text-align: right;">10 ابزار اصلی مدیریت پروژه</h4>
+                         </div>
+                         <div class="full">
+                           <p style="direction: rtl; text-align: right;">شامل گانت چارت، WBS، داشبورد پروژه، ابزار EVM، پایگاه ریسک پروژه و ...</p>
+                         </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end section -->
+         <!-- section -->
+         <div class="section about_section layout_padding padding_top_0">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="full">
+                        <div class="heading_main text_align_center">
+                           <h2 class="margin-bottom_30"><strong class="small theme_color" style="margin-bottom: rem;">می توانم پروژه های خود را مدیریت کنم The One با</strong><br><br><br>شما نیاز دارید که پیشروی پروژه خود را مرتب زیر نظر بگیرید</h2>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                     <div class="full">
+                        <div class="heading_small">
+                          <h4 style="direction: rtl;text-align: right; line-height: 3rem;">پیچیدگی ها سازمان دهی شوند</h4>
+                        </div>
+                        <p style="direction: rtl;text-align: right;">من پروژه جدید گرفته ام. در این پروژه با چالش های زیادی رو به رو هستم. برای مدیریت این پروژه نیاز به کمک دارم.<br><br>the one سرویسی هست در خدمت شما برای مدیریت کردن بهتر پروژه های شماتا بتوانید با آسودگی خاطر بیشتری  پروژه های خود را مدیریت کنید و از پس چالش های پروژه با صرف کمترین هزینه زمانی برآیدد.</p>
+                      </div>
+                      <div class="full margin-top_30">
+                        <a class="readmore_bt" href="#">بیشتر بخوانید </a>
+                      </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                     <div class="full text_align_center">
+                        <img class="img-responsive" src="images/f1.png" alt="#" style="margin-left: 8rem;" / >   
+                      </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end section -->
+         <!-- section -->
+         <div class="section about_section layout_padding padding_top_0">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="full">
+                        <div class="heading_main text_align_center margin-bottom_30">
+                           <h2 style="direction: rtl ; text-align: center;"> <strong class="small theme_color" >نگرانی از مسائل فنی وجود ندارد</strong><p>The One بصورت Cloud و بر روی سرورهای امن کار می کند. بنابراین شما لازم نیست که نگران هیچ مسئله فنی باشید.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="full">
+                        <div class="heading_main text_align_center margin-bottom_30">
+                           <h2><strong class="small theme_color">را ببینم؟ The One آیا میتوانیم نمونه از </strong><p>قطعا، شما می توانید نمونه هایی که بصورت عمومی منتشر شده اند را ببینید.
+                           </p>
+                        </div>
+                        <div style="text-align: center;" data-aos="fade-left"  data-aos-duration="3000" data-aos-offset="200">
+                           <p style="font-size: x-large;">شما اکنون میتوانید در سه روز از خدمات ما به صورت رایگان استفاده کنید</p>
+                           <button  class="btn btn-primary anibtn"  onclick="foo()">!سه روز استفاده رایگان</button>
+                           <p style="color: rgb(26, 25, 49); margin-top: 1rem; font-size: 2rem;">!فقط تا پایان شهریور فرصت باقیست</p>
+                        </div>   
+                     </div>
+                  </div>
+               </div>
+               
+               <!-- <div class="row">
+                  <div class="col-md-12">
+                     <div class="full text_align_center">
+                       <img class="img-responsive" src="images/video_img.jpg" alt="#" />
+                     </div>
+                  </div>
+               </div> -->
+            </div>
+         </div>
+         <!-- end section -->
+         <!-- section -->
+         <!-- <div class="section dark_blue_layout white_fonts layout_padding">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12 col-lg-4">
+                     <div class="full" style="display: flex; justify-content: center;">
+                        <div class="heading_main text_align_left" style="margin-bottom: 0; text-align: right;">
+                           <h2><strong class="small">به ما ایمیل بزنید همین</strong><br>امروز</h2>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-12 col-lg-4">
+                     <div class="full" style="display: flex; justify-content: center;">
+                         <div class="form_section">
+                            <form class="news_submit_form">
+                              <fieldset>
+                                 <div class="field">
+                                    <input type="email" placeholder="ایمیل خود را وارد کنید" name="#" required />
+                                    <button >ارسال</button>
+                                 </div>
+                              </fieldset>
+                            </form>
+                         </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div> -->
+         <!-- end section -->
+         
+         <!-- section -->
+         <div class="section about_section layout_padding">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="full">
+                        <div class="heading_main text_align_center margin-bottom_30">
+                           <h2 style="direction: rtl; text-align: right;"><strong class="small theme_color" >تصاویری از the one  ببینید</strong</h2>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+              <div class="row">
+
+                <div class="col-sm-6 col-md-3 col-lg-4">
+                   <div class="work_blog margin-top_30">
+                      <img class="img-responsive" src="images/blog1.jpg" alt="#" />
+                      <div class="hover_workblog">
+                          <img src="images/search_icon.png" alt="#" />
+                      </div>
+                   </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-4">
+                   <div class="work_blog margin-top_30">
+                      <img class="img-responsive" src="images/blog2.jpg" alt="#" />
+                      <div class="hover_workblog">
+                          <img src="images/search_icon.png" alt="#" />
+                      </div>
+                   </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-4">
+                   <div class="work_blog margin-top_30">
+                      <img class="img-responsive" src="images/blog3.jpg" alt="#" />
+                      <div class="hover_workblog">
+                          <img src="images/search_icon.png" alt="#" />
+                      </div>
+                   </div>
+                </div>
+
+
+              </div>
+            </div>
+         </div>
+         <!-- end section -->
+         <!-- section -->
+      <!--   <div class="section about_section layout_padding padding_top_0">
+            <div class="row">
+                  <div class="col-md-12">
+                     <div class="full">
+                        <div class="heading_main text_align_center margin-bottom_30">
+                           <h2>ما را پیدا کنید</h2>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         </div> -->
+         <!-- section -->
+     <!--     <div class="section contact_section">
+            <div class="container-fluid">
+               <div class="row" style="direction: rtl;">
+                  <div class="col-md-6 theme_color_bg fc3726 padding_0">
+                     <div class="full">
+                        <div class="row">
+                           <div class="col-sm-12 col-md-10 offset-lg-4">
+                              <div class="full contact_form">
+                                 <form class="contact_form_inner" action="#">
+                                    <fieldset>
+                                       <div class="field">
+                                          <input type="text" name="name" placeholder="نام کاربری" />
+                                       </div>
+                                       <div class="field">
+                                          <input type="email" name="email" placeholder="ایمیل" />
+                                       </div>
+                                       <div class="field">
+                                          <input type="text" name="phone_no" placeholder="شماره همراه" />
+                                       </div>
+                                       <div class="field">
+                                          <textarea style="display: flex; justify-content: center;" placeholder="متن پیام"></textarea>
+                                       </div>
+                                       <div class="field center">
+                                          <button class="margin-top_30" style="border-radius: 1rem;">ارسال</button>
+                                       </div>
+                                    </fieldset>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- <div class="col-md-6 padding_0">
+                     <div class="full">
+                        <div class="row">
+                           <div class="col-sm-12">
+                               <div class="full map_section">
+                                 <div id="map">
+                                    <div id="googleMap" style="width:100%;height:440px;"></div>
+                                 </div>
+                              </div> 
+                           </div>
+                        </div>
+                     </div>
+                  </div> -->
+               </div>
+            </div>
+         </div> -->
+         <!-- end section -->
+         <!-- Start Footer -->
+         <footer class="footer-box">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="full">
+                        <div class="heading_main text_align_center white_fonts margin-bottom_30">
+                           <h2>ارتباط با ما</h2>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  
+                  <!-- <div class="col-lg-4 col-md-6 col-sm-6 white_fonts">
+                     <div class="full footer_blog f_icon_1">
+                         <p>آدرس<br></p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 col-sm-6 white_fonts">
+                     <div class="full footer_blog f_icon_2">
+                        <p>شماره تماس<br><small>+84 126 922 0162<br>+84 905 333 333<br>Monday - Sunday<br>08:00 am - 05:00 pm</small></p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 col-sm-6 white_fonts">
+                     <div class="full footer_blog f_icon_3">
+                         <p>ایمیل<br><small>support@sofbox.com<br>24 X 7 online support</small></p>
+                     </div>
+                  </div> -->
+
+                  <div class="col-lg-4 col-md-6 col-sm-6 white_fonts">
+                     <div class="full footer_blog_last">
+                         <p>ما در شبکه های اجتماعی</p>
+                         <p>
+                           <ul>
+                              <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                              <li><a href="https://www.instagram.com/accounts/login/?next=/yektaaproject/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                           </ul>
+                         </p>
+                     </div>
+                  </div>
+              
+               </div> 
+            </div>
+         </footer>
+         <!-- End Footer -->
+         <div class="footer_bottom">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <p class="crp" style="text-align: right;direction: rtl;">© تمامی متن ها و تصاویر متعلق به The One 2018 است </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+      <!-- ALL JS FILES -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script> -->
+      <!-- ALL PLUGINS -->
+      <script src="js/jquery.magnific-popup.min.js"></script>
+      <script src="js/jquery.pogo-slider.min.js"></script>
+      <script src="js/slider-index.js"></script>
+      <script src="js/smoothscroll.js"></script>
+      <script src="js/form-validator.min.js"></script>
+      <script src="js/contact-form-script.js"></script>
+      <script src="js/isotope.min.js"></script>
+      <script src="js/images-loded.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.all.min.js"></script>
+      <script  src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <!-- End Google Map -->
+      <script>
+         $(document).ready(function() {
+           $('#sidebarCollapse').on('click', function() {
+             $('#sidebar, #content').toggleClass('active');
+             $('.collapse.in').toggleClass('in');
+             $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+           });
+         });
+      
+         function foo(){
+            Swal.fire({title: 'فرم عضویت' , text: 'نام' , width: 400  ,  html:
+         '<input style="height: 2rem; width: 20rem;" dir="rtl" placeholder="نام" id="swal-input1" class="swal2-input">' +
+         '<input style="height: 2rem; width: 20rem;" dir="rtl" placeholder="نام خانوادگی" id="swal-input2" class="swal2-input">'+
+         '<input style="height: 2rem; width: 20rem;" dir="rtl"  type="email" placeholder="ایمیل" id="swal-input3" class="swal2-input">'+
+         '<input style="height: 2rem; width: 20rem;" dir="rtl"  type="text" placeholder="شماره همراه" id="swal-input4" class="swal2-input">'+
+         '<h3>:نحوه آشنایی با سایت</h3>'+
+         '<select style="display: flex;margin: 0.5rem 6.5rem; padding: 0.3rem;text-align-last:center;">'+
+         '<Option value="google" >گوگول</Option>'+
+         '<Option value="insta" >اینستاگرام</Option>'+
+         '<Option value="sms" >پیامک</Option>'+
+         '<Option value="other" >دوستان و آشنایان</Option>'+
+         '</select>'+
+         '<input style="height: 2rem; width: 20rem;" dir="rtl" type="password" placeholder="رمز ورود" id="swal-input5" class="swal2-input">'+
+         '<input style="height: 2rem; width: 20rem;" dir="rtl" type="password" placeholder="تکرا رمز ورود" id="swal-input6" class="swal2-input">' ,
+         confirmButtonColor: '#3085d6' ,confirmButtonText: 'ثبت نام',
+         showCancelButton: true, cancelButtonColor: '#e21212', cancelButtonText: '!بستن'
+         })
+         }
+
+         function onsign(){
+            Swal.fire({ title: 'ثبت نام' ,
+                        position: 'center',
+                        width: 420,
+                        showCloseButton: true,
+                        html:
+                        
+         '<input style="height: 2rem; width: 20rem;" dir="rtl" placeholder="نام" id="swal-input1" class="swal2-input">' +
+         '<input style="height: 2rem; width: 20rem;" dir="rtl" placeholder="نام خانوادگی" id="swal-input2" class="swal2-input">'+
+         '<input style="height: 2rem; width: 20rem;" dir="rtl"  type="email" placeholder="ایمیل" id="swal-input3" class="swal2-input">'+
+         '<input style="height: 2rem; width: 20rem;" dir="rtl" type="password" placeholder="رمز ورود" id="swal-input5" class="swal2-input">'+
+         '<input style="height: 2rem; width: 20rem;" dir="rtl" type="password" placeholder="تکرا رمز ورود" id="swal-input6" class="swal2-input">' ,
+         confirmButtonColor: '#3085d6' ,confirmButtonText: 'ثبت نام',  
+
+         })
+         }
+
+         function onlogin(){
+            Swal.fire({ title: 'ورود کاربر' ,
+                        position: 'center' ,
+                        width: 420 ,
+                        showCloseButton: true,
+                        html: 
+                        '<input  dir="rtl"  type="text" placeholder="ایمیل و یا نام کاربری" id="sign-1" class="swal2-input">'+
+                        '<input  dir="rtl"  type="text" placeholder="رمز عبور" id="sign-2" class="swal2-input">' ,
+                        confirmButtonColor: '#3085d6' ,confirmButtonText: 'ورود',  
+               })
+         }
+
+         AOS.init();
+
+         </script> 
+  
+      
+      </script>
+      <!-- google map js -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- end google map js -->
+   </body></html>
